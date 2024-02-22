@@ -1,0 +1,87 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.versionHistory {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(
+      --link
+    ); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(
+        --linkHovered
+      ); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.versionBtn {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid #00000047;
+  background: transparent;
+  cursor: pointer;
+  color: #000;
+}
+
+.container {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 1px 3px 1px #a9a9a9a6;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #242424;
+  border-left: 6px solid #2b7aff;
+  border-radius: 5px;
+  padding-left: 10px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+// table {
+//   border-radius: 5px;
+// }
+
+// table,
+// td,
+// th {
+//   border: 1px solid #00000047;
+//   border-collapse: collapse;
+// }
+
+// td {
+//   padding: 10px;
+// }
+// th {
+//   padding: 20px;
+//   font-size: 20px;
+// }
